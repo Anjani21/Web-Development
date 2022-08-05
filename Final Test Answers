@@ -1,0 +1,345 @@
+1.Which of the following function returns the number of characters in a string variable?
+Ans-- strlen($variable)
+
+2.How many parameters does the mysqli_query() function accept?
+
+Ans-- 2
+
+3.What will the output of the following code be?
+<?php
+$x=5;
+$x=$x+10;
+echo $x;
+?>
+
+Ans-  15
+
+4. Why should the value of the 'for' attribute of labels tag be same as the id of the corresponding input element?
+
+Ans-- This is necessary so that clicking on the label directly takes focus to the corresponding input element
+
+5. Which attributes adds default value to the form input element?
+
+Ans-- value
+
+6. Which class is used to make a button take up the entire available width?
+
+Ans--    .btn-block
+
+
+7. What will be the output of the following code be?
+
+<?php
+$x=5;
+$x=$x+10;
+echo $x;
+?>
+
+Ans-- 15
+
+8. Which keyword is used to get unique values from the database?
+
+Ans--  DISTINCT
+
+9. In the following code how many child elements will be present in the first line?
+
+<div class="row">
+<div class="col-xs-3"></div>
+<div class="col-xs-4"></div>
+<div class="col-xs-1"></div>
+<div class="col-xs-5"></div>
+</div>
+
+Ans-- 3
+
+
+10. Consider a web page of width 1000px. What is the exact horizontal ( from left) position of 1000px. Whe the div with id="inner_div" element?
+<!DOCTYPE html>
+<html>
+<head>
+<title>Div elements</title>
+<style>
+#first_div{
+width:500px;
+float:right;
+}
+#second_div{
+width:500px;
+float:right;
+}
+#inner_div{
+width:100px;
+float:right;
+}
+</style>
+</head>
+<Body>
+<div id="first_div">
+First div element
+</div>
+<div id="second_div">
+<div id="inner_div"> 
+Find my exact location. 
+</div>
+</div>
+</body>
+</html>
+
+Ans-- 400px - 500px
+
+
+11. Consider connection is established in common.php file. What will be the value of name in the database?
+
+<?php
+require 'common.php';
+$string = "Internshala's";
+$string = mysqli_real_escape_string($con, $string);
+$insert_query = "INSERT INTO users (name) VALUES ('$string")";
+mysqli_query($con, $insert_query);
+?>
+
+Ans-- Internshala's
+
+12. Which of the following is not a heading tag in HTML?
+ 
+Ans-- <h>
+
+13. Which of the following screen sizes correspond to the bootstrap break point lg?
+
+Ans-- >=1200px
+
+14. What is the important CSS that Bootstrap adds to the .img-responsive class to make any image responsive?
+
+Ans-- max-width:100%
+
+15. In the following code how many child elements will be present in the first line?
+
+<div class='row'>
+<div class='col-xs-3'></div>
+<div class='col-xs-4'></div>
+<div class='col-xs-1'></div>
+<div class='col-xs-5'></div>
+</div>
+
+Ans-- 3
+
+16. If we want to add a Glyphicon to our webpage, what is the minimum number of the classes the element should have?
+
+Ans-- 2
+
+17. Which of the following are valid container elements defined by Bootstrap?
+
+Ans-- Both 2 and 3 ( container-fluid & container)
+
+18.How many times loop executed will be displayed on the web page?
+
+<?php
+while (1){
+echo "loop executed
+";
+}
+?>
+
+Ans-- Infinite times
+
+19. What is <ol type="a"> used for?
+Ans--  Lower case alphabets
+
+20. What is the connector (s) that can be used to connect various conditions under the WHERE clause?
+
+Ans-- Both AND and OR
+
+
+21. Which keyword is used with the UPDATE statement to change/update the value of any field?
+
+Ans-- SET
+
+22. What is the value of uninitialised variable?
+
+Ans--  NULL
+
+23. What is the correct HTML for inserting an image?
+
+Ans--  <img src="image.gif" alt="MyImage"/>
+
+24. Which important css properties does the class .img-thumbnail add?
+
+Ans--  padding, border & border-radius
+
+25. PHPMyAdmin allows you to manage?
+
+Ans--  Databases
+
+26.What will the width of the following element be when the screen size is 800px?
+
+<div class="col-xs-12 col-sm-6 col-md-12"></div>
+
+Ans-- 50%
+
+27. Consider the following code with line numbers. What is the output of the code?
+
+<?php
+1. function increment($number) {
+2. $number = $number + 1;
+3. return $number;
+4. echo "The incremented number is ".$number;
+5.}
+6. $number = 1;
+7. increment($number);
+8. echo "Program completed";
+?>
+
+Ans-- Program completed
+
+28. What is the output of the following code?
+<?php
+$variable = NULL; if ($variable){
+echo "If condi
+tion is true";
+}else{
+echo "Else condition is true";
+}
+?>
+
+Ans-- Else condition is true
+
+29. Which command is used to delete the table?
+
+Ans-- DROP TABLE
+
+30. Which sequence of HTML tags is correct?
+
+<html> 
+<head>
+<title></title>
+</head><body>
+</body>
+</html>
+
+31. Consider two tables A and B. id is the primary column in table A. Table A contains 4 records with id values 1, 2, 3 and 4. a_id is the foreign key in table B which is linked with id column of table A. a_id contains 3 records with 1, 2 and 4 values. Can we delete the record from table A whose id is 3?
+
+Ans--  Yes
+
+32. Consider the following code with line numbers. What is the output of the code?
+
+<php
+
+1. function increment($number) {
+2. $number = $number + 1;
+3. return $number;
+4.}
+5. $number = 1;
+6. increment ($number);
+7. echo $number;
+?>
+
+Ans-- 1
+
+33. The following media query corresponds to which Bootstrap breakpoint? @media(max width:1199px)
+
+Ans--  xs, sm & md
+
+34. What does the class .form-group do?
+
+Ans--  Adds a margin at the bottom element with class .form-group
+
+35. On a page, if we have a div with class container and a div with class container-fluid, which of the following is true?
+
+Ans-- The div with class container-fluid will always have more width than the div with class container
+
+36. Why is alt attributes used with an image?
+
+Ans-- This text is displayed when the image can not be displayed for the user.
+
+37. What will happen if you use DELETE command without the where clause?
+
+Ans-- All the records in the table will get deleted
+
+38. Consider the table test with following columns: id INT NULL name VARCHAR(255) NULL Choose the appropriate alter command to add address VARCHAR 256 length column after name column.
+
+Ans-- ALTER TABLE test ADD address VARCHAR( 256 ) AFTER name
+
+39. $a-= $b; is the same as?
+
+Ans--  $a = $a-$b;
+
+40. What is the syntax of the foreach loop in case of associative array?
+
+Ans--  foreach ($array as $key=> $value)
+
+41. Can you truncate the table whose primary key is lined as foreign key in the other table?
+
+Ans-- No
+
+42. Consider table A with 3 records with id column primary key with values 1, 2, 3. Consider table B with 6 records with a_id as foreign key with values 1, 2, 3, 3, 3, 3. How many records A left join B query would return?
+
+Ans-- 6
+
+43. Which of the following statement has the correct syntax?
+
+Ans-- Both of the above[ INSERT INTO table_name VALUES ( value1, value2, value 3..) & INSERT INTO table_name( column 1, column2, column 3,....) VALUES(value 1, value2, value3,...)]
+
+44. What will be the output of the following code:
+<?php function add($x, $y){ 
+$total=$x+$y;return $total;
+}
+echo "1+16= ".add(1,16);?>
+
+Ans-- 1 + 16 = 17
+
+45. What are the positions of the following div elements?
+<div style="float:right">A</div>
+<div style="float:right">B</div>
+<div style="float:right">C</div>
+
+Ans--  C B A
+
+46. If an HTML element has class col-xs-6 and no other class, which of the following is true?
+
+Ans-- The element will have 50% width always
+
+47. What happens if we use .col-*-* classes without using the .row parent class?
+
+Ans-- The elements in the .col-*-* qlasses don't start from the left edge of the container and don't end at the right edge of the container
+
+48. Consider the following code with line numbers. What is the output of the code?
+
+<?php
+1. function increment($number) {
+2. $number = $number + 1;
+3. return $number;
+4.}
+5. $number = 1;
+6. $incremented_number= increment($number);
+7. echo $number;
+?>
+
+Ans-- 1
+
+49. Consider two classes A and B in style.css. What will be the padding assigned to the div element if both the classes are given to the same div element?
+
+style.css
+.A{
+padding: 5px 10px;
+}
+.B{
+padding-right:15px;
+}
+index.html
+<div class=""A B"">This is a div element</div>
+
+Ans-- 
+padding:
+top - 5px
+right - 15px
+bottom - 5px
+left - 10px
+
+50. What is the output of the following code?
+
+<?php
+$number = 1;
+echo "The value of number variable is'$number' ",
+?>
+
+Ans--  The value of number variable is'1'
